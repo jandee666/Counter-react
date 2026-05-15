@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.counter-display {
+  background-color: #f0f4ff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border-left: 5px solid #2196F3;
+}
+
+.counter-display p {
+  font-size: 28px;
+  color: #2196F3;
+  font-weight: bold;
+  margin: 0;
+}
+
+.button-group {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.App button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.App button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.btn-increment {
+  background-color: #4CAF50;
+}
+
+.btn-increment:hover {
+  background-color: #45a049;
+}
+
+.btn-decrement {
+  background-color: #f44336;
+}
+
+.btn-decrement:hover {
+  background-color: #da190b;
+}
+
+.btn-reset {
+  background-color: #2196F3;
+}
+
+.btn-reset:hover {
+  background-color: #0b7dda;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.App input {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid #ddd;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.App input:focus {
+  outline: none;
+  border-color: #2196F3;
+  box-shadow: 0 0 5px rgba(33, 150, 243, 0.3);
+}
+
+.input-group p {
+  color: #666;
+  margin-top: 10px;
+}
+
+.warning-message {
+  color: #f44336;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px;
+  background-color: #ffebee;
+  border-radius: 5px;
+  border-left: 5px solid #f44336;
+  margin-top: 20px;
+}
